@@ -25,3 +25,25 @@ print(len(my_string[::2]))
 
 #clean format usage | string interpolation
 print("hello {}".format("world"))
+
+"""special characters
+\ escape character which escapes a special character
+\n new line character 
+\t adds tabs within string"""
+
+name_of_book = "Harry Potter"
+name_of_book.upper()
+name_of_book = name_of_book[::-1]
+new_name_of_book = name_of_book
+new_name_of_book.lower()
+name_of_book = new_name_of_book.upper()
+new_name_of_book = name_of_book[::-1]
+print(name_of_book)
+print(new_name_of_book)
+
+# Numbers, integers, floats
+print(int(100/3.3))
+l = [9,4,8,200,62,35,12]
+mid = len(l)//2
+print(mid)
+print(l[3])
