@@ -47,3 +47,9 @@ l = [9,4,8,200,62,35,12]
 mid = len(l)//2
 print(mid)
 print(l[3])
+
+#control the execution flow of a program by boolean and conditional tests along with branching 
+#exercise 2
+
+
+#Compund data types: Lists, Dict, Tuples, Sets
