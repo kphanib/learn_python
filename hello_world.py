@@ -52,4 +52,29 @@ print(l[3])
 #exercise 2
 
 
-#Compund data types: Lists, Dict, Tuples, Sets
+#Compound data types: Lists, Dict, Tuples, Sets
+#lists
+my_list = [1,2,"name","place"]
+print(my_list[0])
+my_list = [1,2,3,4,5,6,7,8]
+print(my_list[::-1])
+print(type(my_list))
+#dictionary 
+my_dict = {1:2, "name":"python"}
+print(my_dict["name"])
+print(type(my_dict))
+my_dict = {'name':'john','course':'python'}
+#print(my_dict[::-1])
+#sets
+# my_set_1 = {1,2,"name","name"}
+# print(my_set_1) #gets rid of all duplicates
+# print(type(my_set_1))
+my_set = {1,6,2,'java','ruby',8,9,10,21,1000,'python',6}
+my_second_set = {6,2,'javascript','rails',8,9,10,21,1000,'c'}
+my_set.update(my_second_set)
+print(my_set)
+#tuples
+#tuples are immutable and don't support item reassignment 
+my_tuple = (1,2,"name","age")
+print(my_tuple)
+print(type(my_tuple))
