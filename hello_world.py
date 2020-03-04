@@ -53,7 +53,7 @@ print(l[3])
 
 
 #Compound data types: Lists, Dict, Tuples, Sets
-#lists
+#lists #List comprehension is used to generate lists of items in 1 line in a clean, efficient manner
 my_list = [1,2,"name","place"]
 print(my_list[0])
 my_list = [1,2,3,4,5,6,7,8]
